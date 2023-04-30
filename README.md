@@ -14,3 +14,9 @@
 3-Selecionar a Categoria
 
 4-Clicar em Salvar e aguardar a confirmação
+
+
+
+**#Visualização do Gsto Inserido**
+
+1-Agora os gastos inseridos aparecem na Tela inicial do programa.
