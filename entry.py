@@ -1,12 +1,22 @@
 from tkinter import *
 from tkinter import ttk, messagebox
+import pyodbc
+
 
 def save():
+    Server = 'LAPTOP-0O4DDNV9\SQLEXPRESS'
+    conexao = pyodbc.connect(Driver='{SQL Server}', host=Server)
+
+    cursor = conexao.cursor()
+
     valor = valor_input.get()
     desc = desc_input.get()
     tipo = combo.get()
-    messagebox.showinfo('Ok', message='Gasto Adicionado com Sucesso!')
 
+    cursor.execute(f"INSERT INTO [Controle_Gastos].[dbo].[Gasto](valor, descricao, tipo) VALUES ('{valor}','{desc}', '{tipo}')")
+    cursor.commit()
+
+    messagebox.showinfo('Ok', message='Gasto Adicionado com Sucesso!')
 
 '''Configuração da janela'''
 options = [
