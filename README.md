@@ -21,4 +21,4 @@
 
 1-Agora os gastos inseridos aparecem na Tela inicial do programa.
 
-**#Exclusão de Gasto Inserido
+**#Exclusão de Gasto Inserido**
