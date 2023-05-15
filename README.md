@@ -17,6 +17,8 @@
 
 
 
-**#Visualização do Gsto Inserido**
+**#Visualização do Gasto Inserido**
 
 1-Agora os gastos inseridos aparecem na Tela inicial do programa.
+
+**#Exclusão de Gasto Inserido
