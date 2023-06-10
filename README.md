@@ -7,9 +7,13 @@
 
 
 **#Inclusão de Novo Gasto**
+
 1-Inserir a Descrição do Gasto.
+
 2-Inserir o Valor.
+
 3-Selecionar a Categoria.
+
 4-Clicar em Salvar e aguardar a confirmação.
 
 
